@@ -2,7 +2,7 @@ asm0:
 	push rbp
 	mov rbp, rsp
 	mov rax, rdi
-jmp test
+	jmp test
 loop:
 	add rax, rdx
 test:
